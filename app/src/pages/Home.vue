@@ -5,11 +5,12 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand fw-bold text-white" href="#">Eugénio Cachiombo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fas fa-bars text-white"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="#hero">Início</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#servicos">Serviços</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#portfolio">Portfólio</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre Mim</a></li>
@@ -20,11 +21,11 @@
   </nav>
 
   <!-- HERO -->
-  <section class="hero text-center">
+  <section class="hero text-center" id="hero">
     <div class="container" data-aos="fade-up">
-      <img src="https://via.placeholder.com/220" alt="Eugénio Cachiombo" class="mx-auto mb-4">
+      <img src="@/assets/img/profile.jpg" alt="Eugénio Cachiombo" class="mx-auto mb-4">
       <h1 class="display-4 fw-bold mb-3">Eugénio Cachiombo</h1>
-      <p class="lead highlight fs-3 mb-2">Especialista em Soluções Digitais</p>
+      <p class="lead highlight fs-3 mb-2">Desenvolvedor de Software</p>
       <p class="col-lg-8 mx-auto fs-5 mb-4">
         Desenvolvo sistemas e aplicações personalizadas que automatizam processos, reduzem custos e impulsionam o crescimento do seu negócio.
       </p>
@@ -180,7 +181,7 @@
     <div class="container">
       <h2 class="mb-3">Pronto para transformar o seu negócio?</h2>
       <p class="highlight fs-4">Planos a partir de 40.000 Kz</p>
-      <a href="#contacto" class="btn btn-custom btn-lg mt-3">Falar com Eu Agora</a>
+      <a href="#contacto" class="btn btn-custom btn-lg mt-3">Fale comigo</a>
     </div>
   </section>
 
