@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eugénio Cachiombo | Soluções Freelancer</title>
+  <meta name="description"
+    content="Desenvolvo soluções freelancer personalizadas: websites, aplicações web, sistemas de gestão e automações que aumentam a eficiência e os resultados do seu negócio.">
+
+  <link href="src/assets/bootstrap-5.0.2/css/bootstrap.css" rel="stylesheet">
+  <link href="src/assets/fontawesome/css/all6.css" rel="stylesheet">
+  <link href="src/assets/aos/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app"></div>
+  
+
+  <!-- Botões Flutuantes -->
+  <a href="https://wa.me/244921439849" target="_blank" class="whatsapp-btn" title="Falar no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+244921439849" class="call-btn" title="Ligar">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <script src="src/assets/bootstrap-5.0.2/js/bootstrap.js"></script>
+  <script src="src/assets/aos/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
