@@ -4,7 +4,7 @@
   <!-- NAV -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold text-white" href="#">Eugénio Cachiombo</a>
+      <a class="navbar-brand fw-bold text-white" href="#">Serviços Freelancer</a>
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <i class="fas fa-bars text-white"></i>
       </button>
@@ -27,7 +27,7 @@
       <h1 class="display-4 fw-bold mb-3">Eugénio Cachiombo</h1>
       <p class="lead highlight fs-3 mb-2">Desenvolvedor de Software</p>
       <p class="col-lg-8 mx-auto fs-5 mb-4">
-        Desenvolvo sistemas e aplicações personalizadas que automatizam processos, reduzem custos e impulsionam o crescimento do seu negócio.
+        Desenvolvo sistemas e aplicações para empresas médias e pequenas. Aplicações totalmente personalizadas que automatizam processos, reduzem custos e impulsionam o crescimento do seu negócio.
       </p>
       <a href="#contacto" class="btn btn-custom btn-lg">Solicitar Orçamento</a>
     </div>
@@ -38,15 +38,15 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4 mb-4" data-aos="fade-up">
-          <div class="stat-number">+25</div>
+          <div class="stat-number"><i class="spinner-border"></i></div>
           <p class="fs-5 mt-2">Projetos Concluídos</p>
         </div>
         <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="stat-number">+18</div>
+          <div class="stat-number"><i class="spinner-border"></i></div>
           <p class="fs-5 mt-2">Clientes Satisfeitos</p>
         </div>
         <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="stat-number">100%</div>
+          <div class="stat-number"><i class="spinner-border"></i></div>
           <p class="fs-5 mt-2">Taxa de Satisfação</p>
         </div>
       </div>
@@ -55,40 +55,48 @@
 
   <!-- SERVIÇOS -->
   <section id="servicos" class="py-5">
-    <div class="container">
-      <h2 class="section-title text-center">Meus Serviços</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3" data-aos="fade-up">
-          <div class="card card-custom p-4 text-center">
-            <i class="fas fa-globe fa-3x mb-3 highlight"></i>
-            <h5>Websites Profissionais</h5>
-            <p class="small text-muted">Sites institucionais, e-commerces e blogs com design moderno e otimizado para conversão.</p>
-          </div>
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Meus Serviços</h2>
+    
+    <div class="row g-4">
+      <!-- Serviço 1 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up">
+        <div class="card card-custom p-4 text-center h-100">
+          <i class="fas fa-globe fa-3x mb-3 highlight"></i>
+          <h5>Websites Profissionais</h5>
+          <p class="small text-muted">Sites institucionais, blogs e plataformas modernas, rápidas e otimizadas para conversão e visibilidade online.</p>
         </div>
-        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="card card-custom p-4 text-center">
-            <i class="fas fa-mobile-alt fa-3x mb-3 highlight"></i>
-            <h5>Aplicações Web</h5>
-            <p class="small text-muted">Sistemas web responsivos e aplicações personalizadas para gestão interna.</p>
-          </div>
+      </div>
+
+      <!-- Serviço 2 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="card card-custom p-4 text-center h-100">
+          <i class="fas fa-desktop fa-3x mb-3 highlight"></i>
+          <h5>Aplicações Desktop</h5>
+          <p class="small text-muted">Softwares desktop personalizados para gestão interna, com interface intuitiva e alta performance.</p>
         </div>
-        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="card card-custom p-4 text-center">
-            <i class="fas fa-rocket fa-3x mb-3 highlight"></i>
-            <h5>Landing Pages</h5>
-            <p class="small text-muted">Páginas de alta conversão para campanhas de marketing e lançamento de produtos.</p>
-          </div>
+      </div>
+
+      <!-- Serviço 3 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="card card-custom p-4 text-center h-100">
+          <i class="fas fa-rocket fa-3x mb-3 highlight"></i>
+          <h5>Landing Pages de Alta Conversão</h5>
+          <p class="small text-muted">Páginas de vendas e captura optimizadas para campanhas de marketing e lançamento de produtos/serviços.</p>
         </div>
-        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-          <div class="card card-custom p-4 text-center">
-            <i class="fas fa-cogs fa-3x mb-3 highlight"></i>
-            <h5>Sistemas Personalizados</h5>
-            <p class="small text-muted">Automação de processos, ERP, CRM e integrações com outras plataformas.</p>
-          </div>
+      </div>
+
+      <!-- Serviço 4 -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="card card-custom p-4 text-center h-100">
+          <i class="fas fa-cogs fa-3x mb-3 highlight"></i>
+          <h5>Sistemas de Gestão Personalizados</h5>
+          <p class="small text-muted">Automação de processos, ERP, escolas, farmácias, oficinas, controle de stock, agendamentos e muito mais.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- PORTFÓLIO -->
   <section id="portfolio" class="py-5 bg-dark">
