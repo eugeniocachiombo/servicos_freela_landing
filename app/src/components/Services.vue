@@ -5,7 +5,7 @@
     
     <div class="row g-4">
       <!-- Serviço 1 -->
-      <div class="col-md-6 col-lg-3" >
+      <div class="col-md-6 col-lg-3" data-aos="fade-up">
         <div class="card card-custom p-4 text-center h-100">
           <i class="fas fa-globe fa-3x mb-3 highlight"></i>
           <h5>Websites Profissionais</h5>
@@ -14,7 +14,7 @@
       </div>
 
       <!-- Serviço 2 -->
-      <div class="col-md-6 col-lg-3"  >
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
         <div class="card card-custom p-4 text-center h-100">
           <i class="fas fa-desktop fa-3x mb-3 highlight"></i>
           <h5>Aplicações Desktop</h5>
@@ -23,7 +23,7 @@
       </div>
 
       <!-- Serviço 3 -->
-      <div class="col-md-6 col-lg-3"  >
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
         <div class="card card-custom p-4 text-center h-100">
           <i class="fas fa-rocket fa-3x mb-3 highlight"></i>
           <h5>Landing Pages de Alta Conversão</h5>
@@ -32,7 +32,7 @@
       </div>
 
       <!-- Serviço 4 -->
-      <div class="col-md-6 col-lg-3"  >
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
         <div class="card card-custom p-4 text-center h-100">
           <i class="fas fa-cogs fa-3x mb-3 highlight"></i>
           <h5>Sistemas de Gestão Personalizados</h5>
