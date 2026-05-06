@@ -12,22 +12,22 @@ import johnsabores from '@/assets/img/portfolio/johnsabores.png';
     <div class="container">
       <h2 class="section-title text-center">Portfólio</h2>
       <div class="row g-4">
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-md-4" >
           <img :src="sistemastudio" class="img-fluid rounded-3 shadow" alt="Projeto 1">
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-4"  >
           <img :src="mifelviagens" class="img-fluid rounded-3 shadow" alt="Projeto 2">
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-4"  >
           <img :src="pryanick" class="img-fluid rounded-3 shadow" alt="Projeto 3">
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-4"  >
           <img :src="diagnosticocaes" class="img-fluid rounded-3 shadow" alt="Projeto 3">
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-4"  >
           <img :src="sistemaaposta" class="img-fluid rounded-3 shadow" alt="Projeto 3">
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-4"  >
           <img :src="johnsabores" class="img-fluid rounded-3 shadow" alt="Projeto 3">
         </div>
       </div>
